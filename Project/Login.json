@@ -1,0 +1,46 @@
+{
+  "login": [
+    {
+      "id": "1",
+      "name": "Mayur Ashishbhai Ajugia",
+      "email": "mayurajugia16@gmail.com",
+      "password": "mayur"
+    },
+    {
+      "id": "125",
+      "name": "Akash Patel",
+      "email": "akashpatel45@gmail.com",
+      "password": "Akash"
+    },
+    {
+      "id": "55cf",
+      "name": "Arvind",
+      "email": "Arvind123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "ea3f",
+      "name": "Akash",
+      "email": "akashpatel123456@gmail.com",
+      "password": "456"
+    },
+    {
+      "id": "6d10",
+      "name": "as",
+      "email": "as@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "adfa",
+      "name": "ghj",
+      "email": "ghj@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "f76a",
+      "name": "Ashish",
+      "email": "ashishghj@gmail.com",
+      "password": "123"
+    }
+  ]
+}

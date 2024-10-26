@@ -1,0 +1,34 @@
+{
+  "logindata": [
+    {
+      "id": "1",
+      "name": "Mayur Ashishbhai Ajugia",
+      "email": "mayurajugia16@gmail.com",
+      "password": "mayur"
+    },
+    {
+      "id": "3204",
+      "name": "vinit",
+      "email": "vinitchauhan345@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "9e3e",
+      "name": "bhai",
+      "email": "bhai12556@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "cc8c",
+      "name": "Aid",
+      "email": "aid123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "346f",
+      "name": "kano",
+      "email": "kano123@gmail.com",
+      "password": "123"
+    }
+  ]
+}

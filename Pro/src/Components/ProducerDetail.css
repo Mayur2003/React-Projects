@@ -1,0 +1,15 @@
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    height: 70vh;
+    width: 70vh;
+}
+.bhai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
