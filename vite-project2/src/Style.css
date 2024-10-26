@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+/* body{
+    background-color: rgb(243, 238, 233);
+} */
+.nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border: 1px solid rgb(211, 209, 209);
+    /* box-shadow: 0px 1px 5px rgb(0 0 0 / 20%); */
+}
+.search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.side-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.side-logo div{
+    position: relative;
+
+}
+.side-logo div span:nth-last-child(1){
+    opacity: 0.7;
+    font-weight: 300;
+}
+ .counter{
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    background-color: #21da84;
+    border-radius: 50%;
+    padding: 0px 4px;
+}
+
+.catagory{
+    width: 50%;
+    min-width: 300px;
+    outline: 2px solid rgb(144, 228, 144);
+    padding: 4px 10px;
+}
+.catagory input{
+    width: 70%;
+    font-size: 17px;
+    padding: 8px 10px;
+    border: none;
+    border-left: 2px solid rgb(197, 196, 196);
+}
+.catagory select{
+    font-size: 17px;
+    width: 30%;
+    text-align: center;
+    padding: 5px 2px;
+    border: none;
+}
+
+
+/* Second nav start here */
+
+.second-nav{
+   padding: 10px 0px;
+    border: 1px solid rgb(228, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+}
+.list ul{
+    font-size: 17px;
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.list ul li{
+    padding: 20px 0px;
+}
+.browse button{
+    font-size: 18px;
+    padding: 10px 10px;
+    background-color: #25a96b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.list ul i{
+    font-size: 10px;
+    
+}
+.help-line{
+    display: flex;
+    gap: 5px;
+}
+.help-line h2{
+    color: #25a96b;
+}
+.help-line span{
+    color: rgb(146, 146, 146);
+}
+
+/* Drop down process start here */
+/* Home  */
+.list ul li{
+    cursor: pointer;
+
+} 
+.home-li{
+    position: relative;
+}
+.home-drop{
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+}   
+.home-drop p{
+    margin-bottom: 15px;
+}       
+.home-li:hover .home-drop{
+    display: block;
+}    
+
+/* Shop */
+.shop-li{
+    position: relative;
+}
+.shop-drop{
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    width: 250px;
+    text-align: left;
+    padding: 15px 25px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+}   
+.shop-drop p{
+    margin-bottom: 15px;
+}       
+.shop-li:hover .shop-drop{
+    display: block;
+}
+
+/* Menu */
+.menu-li{
+    position: relative;
+}
+.menu-drop{
+    display: flex;
+    display: none;
+    justify-content: space-around;
+    top: 55px;
+    right: -470px;
+    border-radius: 10px;
+    width: 1240px;
+    padding: 15px;
+   line-height: 25px;
+   background-color: #fff;
+    border: 1px solid rgb(215, 215, 214);
+    position: absolute;
+    
+}
+.menu-drop h4{
+    color: green;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+.menu-li:hover .menu-drop{
+    display:flex;
+}
+
+
+/* Section start here */
+
+.section1{
+    display: flex;
+    background: url("https://nest-nextjs-13.vercel.app/assets/imgs/slider/slider-1.png") no-repeat center;
+}
+.slider{
+   padding:100px;
+   line-height: 70px;
+}
+.slider h1{
+    font-size: 40px;
+}
+.slider p{
+    font-size: 20px;
+}
+.slider input{
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.slider button{
+    font-size: 20px;
+    padding: 7px 20px;
+    background-color: #21da84;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: green;
+}
+  
+
+    
+
+ 
+
+   
+                  
+    
+    
+    
+    
+
+
