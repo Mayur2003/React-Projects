@@ -1,0 +1,870 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #b13941;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#section-1 {
+    background: rgba(0, 0, 0, 0.5) url(./photos/bg.png) no-repeat center/cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    color: #feedda;
+    text-align: center;
+
+}
+
+.h1 {
+    padding: 80px 0;
+    font-size: 50px;
+}
+
+.pre {
+    font-size: 25px;
+    padding: 0 100px 0 100px;
+}
+
+.btn {
+    padding-top: 60px;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.btn button {
+    background-color: #b13941;
+    padding: 10px 40px;
+    line-height: 33px;
+    font-size: 21px;
+    color: #feedda;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+i:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #b13941;
+    gap: 80px;
+    color: #feedda;
+}
+
+
+.gift {
+    width: 50%;
+}
+
+.gift h1 {
+    font-size: 50px;
+}
+
+.gift p {
+    font-size: 18px;
+    margin: 30px 0 20px;
+}
+
+.gift button {
+    padding: 8px 12px;
+    color: #b13941;
+    font-size: 18px;
+}
+
+.section-3 {
+    background-color: #f8eed3;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+
+.best {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+}
+
+.best h1 {
+    font-size: 75px;
+}
+
+.best p {
+    font-size: 21px;
+    margin: 50px 0;
+    line-height: 30px;
+    color: #575757;
+    width: 576px;
+}
+
+.best span {
+    font-size: 21px;
+    cursor: pointer;
+    color: #b13941;
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: #b13941;
+}
+
+.bars {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+.store {
+    background-color: #f8eed3;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 90px 30px;
+    overflow: hidden;
+}
+
+.secstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec1 {
+    width: 37%;
+    display: flex;
+    margin-left: 35px;
+}
+
+.content button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #b13941;
+    font-size: 12px;
+    color: #feedda;
+}
+
+.menu-text {
+    text-align: center;
+    width: 100%;
+    color: #f8eed3;
+}
+
+.menu-text p {
+    display: inline-block;
+    margin: 40px 0;
+    width: 882px;
+    font-size: 21px;
+}
+
+.menu-text h1 {
+    font-size: 58px;
+    padding-top: 10px;
+}
+
+.store-text {
+    color: #b13941;
+}
+
+.content {
+    width: 499px;
+    height: 312px;
+    background-color: #ffffff;
+    padding: 30px 35px;
+}
+
+.content p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+}
+
+.content h1 {
+    font-size: 33px;
+    color: #010101;
+    line-height: 70px;
+}
+
+.sec2 {
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 30px;
+    border: 3px solid #b13941;
+    ;
+}
+
+.sec2-content {
+    position: relative;
+    width: 351px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.sec2 h1 {
+    font-size: 18px;
+    position: absolute;
+    top: -30px;
+    border: 6px double black;
+    padding: 10px 30px;
+    background-color: khaki;
+    color: #b13941;
+    left: 26%;
+}
+
+.sec2-content p {
+    font-size: 17px;
+    color: #555555;
+    width: 294px;
+}
+
+.sec2-content button {
+    padding: 10px 25px;
+    margin: 30px 0;
+    background-color: #b13941;
+    color: #f8eed3;
+    font-size: 15px;
+}
+
+.profile-section {
+    background-color: #b13941;
+    padding: 90px 60px;
+    color: #f8eed3;
+
+}
+
+.company {
+    height: 459px;
+    width: 700px;
+    background: rgba(0, 0, 0, 0.5)url(./photos/profile\ cup.png) no-repeat center/cover;
+    background-blend-mode: darken;
+}
+
+.fa-play {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 99px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cpro {
+    padding: 30px;
+}
+
+.cpro:hover {
+    box-shadow: 0 0 8px 5px white;
+    cursor: pointer;
+}
+
+.cpro h1 {
+    font-size: 58px;
+}
+
+.cpro p {
+    margin: 30px 0;
+    width: 500px;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.social-icon i {
+    font-size: 25px;
+    margin-right: 30px;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.map {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.contect-us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contect-us h1 {
+    letter-spacing: 1px;
+    font-size: 58px;
+    padding: 50px 0;
+    color: #b13941;
+}
+
+input {
+    margin: 10px 0;
+    width: 651px;
+    padding: 50px;
+    padding: 0 10px;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    height: 62px;
+    font-size: 21px;
+}
+
+input[placeholder='Messages'] {
+    width: 650px;
+    height: 202px;
+    text-align: center;
+}
+
+.contect-us button {
+    margin: 40px 0;
+    font-size: 25px;
+    background-color: #b13941;
+    padding: 10px 15px;
+    color: #f8eed3;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0;
+    background-color: #b13941;
+    color: #ffffff;
+
+}
+
+.your li:nth-child(1),
+.your li:nth-child(2n+1) {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.your li:nth-child(2n+0) {
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+footer ul {
+    height: 198px;
+    font-size: 25px;
+    line-height: 28px;
+    display: block;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    font-size: 15px;
+}
+
+.last {
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 29px;
+}
+@media only screen and (max-width:568px) {
+    nav ul li a {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    #section-1 h1 {
+        font-size: 45px;
+    }
+
+    #section-1 p {
+        line-height: 40px;
+    }
+
+    .pre {
+        padding: 0;
+    }
+
+    nav ul li:nth-child(5) {
+        display: block;
+        text-align: right;
+        width: 100%;
+    }
+
+    .gift {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gift h1 {
+        font-size: 30px;
+    }
+
+    .section-3 {
+        display: block;
+        text-align: center;
+        padding: 50px 30px;
+    }
+
+    .section-3 img {
+        width: 100%;
+    }
+
+    .best {
+        width: 100%;
+    }
+
+    .best h1 {
+        font-size: 50px;
+    }
+
+    .best p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .menu-text p {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+
+    .section-4 {
+        display: block;
+        padding: 20px;
+
+    }
+
+    .sec1 {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sec1 img {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .store {
+        padding: 0 20px;
+    }
+
+    .sec2 {
+        width: 100%;
+    }
+
+    .sec2 img {
+        width: 100%;
+    }
+
+    .sec2 p {
+        width: 50%;
+    }
+
+    .profile-section {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .fa-solid {
+        width: 100%;
+    }
+
+    .cpro p {
+        width: 100%;
+    }
+
+    .cpro h1 {
+        font-size: 30px;
+    }
+
+    .social-icon i {
+        font-size: 25px;
+        margin-right: 10px;
+        border: 2px solid white;
+        padding: 8px;
+    }
+
+    .map img {
+        width: 100%;
+    }
+
+    .contect-us {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contect-us h1 {
+        font-size: 40px;
+    }
+
+    input {
+        width: 300px;
+        height: 50px;
+    }
+
+    input[placeholder='Messages'] {
+        width: 300px;
+        height: 100px;
+    }
+
+    footer {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer ul {
+        margin: 50px 0;
+    }
+}
+@media  only screen and (min-width:568px) and (max-width:768px) {
+
+    #section-1 h1 {
+        padding: 0 10px;
+        font-size: 50px;
+    }
+
+    .pre {
+        padding: 0;
+        line-height: 40px;
+    }
+
+    .btn {
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav ul li:nth-child(5) {
+        display: block;
+        text-align: right;
+        width: 100%;
+    }
+
+    #section-2 {
+        text-align: center;
+    }
+
+    .gift {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .section-3 {
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .section-3 img {
+        width: 70%;
+    }
+
+    .best {
+        text-align: center;
+        width: 100%;
+    }
+
+    .best h1 {
+        font-size: 50px;
+        padding-top: 10px;
+
+    }
+
+    .best p {
+        width: 100%;
+    }
+
+    .section-4 {
+        display: block;
+        padding: 0;
+    }
+
+    .menu {
+        display: block;
+        padding: 0 40px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .menu-text p {
+        display: inline;
+        line-height: 20px;
+    }
+
+    .sec1 {
+        width: 100%;
+        margin: 0;
+        margin: 30px 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secstore {
+        display: block;
+        padding-bottom: 8px;
+    }
+
+    .store-text p {
+        line-height: 33px;
+    }
+
+    .sec2-content {
+        border: 2px solid black;
+    }
+
+    .sec2 {
+        padding: 20px 0;
+    }
+
+    .company {
+        width: 100%;
+    }
+
+    .cpro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cpro p {
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .cpro h1 {
+        font-size: 40px;
+    }
+
+    .map {
+        margin-top: 30px;
+    }
+
+    .contect-us {
+        text-align: center;
+        width: 100%;
+    }
+
+    input,
+    input[placeholder="Messages"] {
+        width: 500px;
+    }
+
+    .btn button {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 0;
+    }
+
+    footer {
+        padding: 50px 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    footer ul {
+        display: inline-block;
+        margin: 50px 20px;
+        gap: 50px;
+    }
+}
+
+@media  only screen and (min-width:768px) and (max-width:1400px) {
+
+    .pre {
+        padding: 80px 40px;
+        line-height: 45px;
+        font-size: 28px;
+    }
+
+    .section-3 {
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .menu-text P {
+        width: 100%;
+    }
+
+    .section-3 img {
+        width: 60%;
+    }
+
+    .best {
+        text-align: center;
+        width: 100%;
+    }
+
+    .best h1 {
+        font-size: 50px;
+        padding-top: 10px;
+
+    }
+
+    .best p {
+        width: 100%;
+    }
+
+    .section-4 {
+        display: block;
+        padding: 0;
+    }
+
+    .sec1 {
+        width: 100%;
+        margin: 0;
+        margin: 30px 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secstore {
+        padding-bottom: 8px;
+    }
+
+    .sec2 {
+        padding: 50px;
+    }
+
+    .sec2-content {
+        border: 2px solid black;
+    }
+
+    .company {
+        width: 100%;
+    }
+
+    .cpro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cpro p {
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .map {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .contect-us {
+        width: 100%;
+    }
+
+    .btn button {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 0;
+    }
+
+    footer {
+        padding: 50px 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    footer ul {
+        display: inline-block;
+        margin: 50px 20px;
+        gap: 50px;
+    }
+}
