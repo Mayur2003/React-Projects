@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+header {
+    background: linear-gradient(rgba(40, 40, 45, 0.9490196078431372), rgba(40, 40, 45, 0.9490196078431372)), url(./foodimg/01bgimg.png) no-repeat center/cover;
+    height: 100vh;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.space {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.left-nav ul,
+.right-nav ul {
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.left-nav ul li a,
+.right-nav ul li a {
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    transition: .2s linear;
+    text-transform: uppercase;
+}
+
+.bars i {
+    display: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.right-nav ul li a:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #e972d1;
+}
+
+.left-nav ul li a:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #e972d1;
+}
+
+.right-nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: .2s linear;
+    height: 2px;
+    background-color: white;
+}
+
+.right-nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+.left-nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: .2s linear;
+    height: 2px;
+    background-color: white;
+}
+
+.left-nav ul li a:hover::after {
+    width: 100%;
+}
+.first-section {
+    margin-top: 45px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-first-img {
+    flex-basis: 60%;
+}
+
+.section-first-text {
+    flex-basis: 40%;
+
+}
+
+.section-first-text h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #e58f00;
+}
+
+.section-first-text p {
+    font-size: 20px;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.section-first-button {
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e58f00;
+    border: none;
+    color: #28282d;
+    transition: 0.5s linear;
+}
+
+.section-first-button:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+.second-section {
+    padding: 60px 0;
+    background-color: rgb(14, 14, 17);
+}
+
+.second {
+    flex-wrap: wrap; 
+     gap: 80px;
+}  
+
+.section-second-text,
+.section-second-img {
+    flex-basis: 45%;
+}
+
+.section-second-text h1 {
+    color: white;
+}
+
+.section-second-img img {
+    width: 100%;
+}
+
+.section-second-text p {
+    width: 450px;
+    line-height: 40px;
+}
+.section-third{
+    background-color:  rgb(14, 14, 17);
+    position: relative;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.section-third img{
+    width: 100%;
+}
+.shape img{
+    position: relative;
+    top: 0px;
+    left: -180px;
+    width: 117%;
+}
+.plate-1-img{
+    position: absolute;
+    right: -250px;
+    top: 10px;
+    width: 560px;
+    height: 560px;
+}
+.section-third-text{
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    top: 400px;
+    left: 150px;
+    color: white;
+}
+.section-third-text h1 {
+    font-size: 50px;
+}
+
+.section-third-text p {
+    margin: 20px 0;
+    font-size: 25px;
+}
+.plate-2-img {
+    width: 650px;
+    position: absolute;
+    right: -100px;
+    bottom: 200px;
+    height: 650px;
+}
+.plate-3-img {
+    position: absolute;
+    bottom: 50px;
+    left: -100px;
+    width: 550px;
+    height: 550px;
+}
+.fourth-section {
+    background-color: rgb(14, 14, 17);
+}
+
+.fourth-section h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.fourth-section {
+    justify-content: center;
+    flex-direction: column;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    padding: 50px 0;
+    gap: 30px;
+}
+.gallery img:hover {
+    transform: scale(1.03);
+    transition: .5s linear;
+    cursor: pointer;
+}
+.fifth-setion{
+    background: url(./foodimg/kachra.png) no-repeat center/cover;
+    justify-content: center;
+    height: 100vh;
+}
+.fifth-section-text {
+    color: #ffffff;
+    width: 550px;
+    padding: 80px;
+    text-align: center;
+    border: 5px solid #e58f00;
+}
+
+.fifth-section-text h1 {
+    font-size: 40px;
+}
+.fifth-section-text p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.six-section{
+    padding: 50px 0;
+    background-color: rgb(14, 14, 17);
+}
+.six-section h3{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+.three-menu{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.menu{
+    flex-basis: 30%;
+    margin: 50px 0;
+    text-align: center;
+}
+ .menu img {
+    width: 100%;
+    height: 350px;
+} 
+
+.menu-text {
+    margin-top: 20px;
+}
+
+.menu-text h1 {
+    font-size: 29px;
+    color: #e58f00;
+}
+
+.menu-text p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.menu-text h2 {
+    font-size: 25px;
+    color: #e58f00;
+}
+.seventh-section {
+    position: relative;
+}
+
+.seven {
+    height: 70vh;
+    flex-wrap: wrap;
+    background-color: #e58f00;
+}
+
+.seven-img {
+    width: 600px;
+    position: absolute;
+    left: 100px;
+}
+
+
+.seven-img img {
+    width: 100%;
+}
+
+.seven-text {
+    color: #ffffff;
+    width: 500px;
+    position: absolute;
+    right: 200px;
+}
+
+.seven-text h1 {
+    font-size: 60px;
+}
+
+.seven-text p {
+    font-size: 25px;
+    line-height: 50px;
+}
+footer {
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-color: rgb(14, 14, 17);
+}
+
+footer .left-nav {
+    padding: 50px;
+}
+
+footer .left-nav ul li a {
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    background-color: white;
+    transition: .1s linear;
+}
+@media screen and (max-width:576px) {
+    header {
+        height: 1000px;
+    }
+
+    .first-section {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .section-first-img img {
+        width: 100%;
+    }
+
+    .section-first-text,
+    .section-second-img {
+        flex-basis: 100%;
+    }
+
+    .section-first-text h1 {
+        font-size: 30px;
+    }
+
+    .left-nav ul li a,
+    .right-nav ul li a {
+        display: none;
+    }
+
+    .bars i {
+        display: block;
+    }
+
+    .section-second-text p {
+        width: 100%;
+    }
+
+    .section-second-text,
+    .section-second-img {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .plate-1-img {
+        top: 20px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-third img {
+        width: 100%;
+    }
+
+    .section-third {
+        width: 100%;
+    }
+
+    .shape img {
+        top: 0;
+        left: -60px;
+        width: 115%;
+    }
+
+    .section-third-text {
+        width: 300px;
+        font-size: 20px;
+        height: 300px;
+        left: 20px;
+        top: 150px;
+    }
+
+    .section-third-text p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .section-third-text h1 {
+        font-size: 30px;
+    }
+
+    .plate-2-img {
+        width: 230px;
+        right: -50px;
+        bottom: 100px;
+        height: 230px;
+    }
+
+    .plate-3-img {
+        bottom: 40px;
+        left: -50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .fourth-section {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, auto);
+        gap: 50px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .three-menu {
+        width: 100%;
+    }
+
+    .fifth-setion,
+    .fifth-section-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .six-section {
+        width: 100%;
+        padding: 30px 50px;
+    }
+
+    .menu {
+        flex-basis: 100%;
+        padding: 0 50px;
+    }
+
+    .seven {
+        height: 800px;
+    }
+
+    .seven-img {
+        width: 350px;
+        position: absolute;
+        left: 110px;
+        top: -50px;
+    }
+
+    .seven-text {
+        bottom: 150px;
+        left: 50px;
+    }
+}
+ /* @media screen and (max-width:1200px){
+    header {
+        height: 800px;
+    } */
+
+    /* Adjust first section */
+    /* .first-section {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .section-first-img img {
+        width: 90%;
+    }
+
+    .section-first-text,
+    .section-second-img {
+        flex-basis: 100%;
+    }
+
+    .section-first-text h1 {
+        font-size: 25px;
+        margin-left: 60px;
+    }
+
+    .left-nav ul li a,
+    .right-nav ul li a {
+        display: none;
+    }
+
+    .bars i {
+        display: block;
+    }
+
+    /* Adjust second section */
+    /* .section-second-text p {
+        width: 100%;
+    }
+
+    .section-second-text,
+    .section-second-img {
+        text-align: center;
+        flex-basis: 100%;
+    } */
+
+    /* Adjust third section */
+    /* .plate-1-img {
+        top: 20px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-third img {
+        width: 100%;
+    }
+
+    .shape img {
+        top: 0;
+        left: -60px;
+        width: 115%;
+    }
+
+    .section-third-text {
+        width: 300px;
+        font-size: 20px;
+        height: 300px;
+        left: 20px;
+        top: 150px;
+    }
+
+    .section-third-text p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .section-third-text h1 {
+        font-size: 30px;
+    }
+
+    .plate-2-img {
+        width: 230px;
+        right: -50px;
+        bottom: 100px;
+        height: 230px;
+    }
+
+    .plate-3-img {
+        bottom: 40px;
+        left: -50px;
+        width: 200px;
+        height: 200px;
+    } */
+
+    /* Adjust fourth section */
+    /* .gallery {
+        grid-template-columns: repeat(1, auto);
+        gap: 50px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .three-menu {
+        width: 100%;
+    } */
+
+    /* Adjust fifth section */
+    /* .fifth-setion,
+    .fifth-section-text {
+        width: 100%;
+        height: auto;
+    } */
+
+    /* Adjust sixth section */
+    /* .six-section {
+        width: 100%;
+        padding: 30px 50px;
+    }
+
+    .menu {
+        flex-basis: 100%;
+        padding: 0 50px;
+    } */
+
+    /* Adjust seventh section */
+    /* .seven {
+        height: 800px;
+    }
+
+    .seven-img {
+        width: 350px;
+        position: absolute;
+        left: 110px;
+        top: -50px;
+    }
+
+    .seven-text {
+        bottom: 150px;
+        left: 50px;
+    }
+}  */
