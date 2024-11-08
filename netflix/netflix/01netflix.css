@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../netflix/netfliximg/header-image.png);
+
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}
+nav button {
+    background-color: red;
+    width: 80px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+}
+ select {
+    padding: 8px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 25px;
+}
+.container p {
+    padding-top: 30px;
+}
+.btn {
+    padding-top: 30px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbtn  i {
+    color: black;
+    position: absolute;
+    right: 270px;
+    top: 40px;
+}
+ input {
+    width: 450px;
+    font-size: 20px;
+    border: none;
+    color: inherit;
+    padding: 15px 5px;
+    border: 1px solid white;
+    background-color:  black;
+    opacity: 0.9;
+}
+ .btn button {
+    border: none;
+    padding: 15px;
+    width: 200px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+section {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.container1, .container2, .container3, .container4{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    align-self: center;
+}
+
+.box h1,p{
+    padding: 15px 0px;
+}
+.imgbox {
+    height: 490px;
+}
+
+nav > ul > li .change_mode {
+    position: absolute;
+    visibility: hidden;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 4s linear;
+  }
+  nav > ul > li .change_mode li {
+    padding: 5px 8px;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+  }
+  .hide-show {
+    visibility: visible !important;
+  }
+
+
+.faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.faq h2{
+    font-size: 45px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    color: aliceblue;
+    margin-bottom: 2px;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transforms 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    color: aliceblue;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label +.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq small{
+    font-size: 30px;
+}
+
+
+
+footer {
+    background-color: black;
+}
+.footercontainer {
+    color: gray;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 55px;
+    text-decoration: none;
+}
+.footercontainer a {
+    color: gray;
+}
+h4 {
+    padding: 10px 0px;
+}
+.tagname {
+    display: flex;
+    justify-content:space-between;
+}
+.tagbox {
+    width: 50%;
+}
+   .imgbox img {
+      width: 400px;
+      height: 400px; 
+   }
+   footer {
+       font-size: 15px;
+   }
+
+
+   
+   .work{
+    background-color: #222;
+    color: #e6e6e6;
+}
+.dark{
+    background-color: white;
+    color: black;
+}
+.mode{
+    background-color: white;
+    border: 1px sold black;
+    border-radius: 20px ;
+    display: inline-block;
+    padding: 6px;
+}
